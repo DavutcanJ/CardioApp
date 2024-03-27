@@ -62,7 +62,7 @@ model2.save("./Ellidogruluk.keras")
 
 # %%
 yenimodel=load_model("Ellidogruluk.keras")
-testdata = [20228,1,156,85.0,140,90,3,1,0,0,1]
+testdata = [6935,1,171,60,110,90,0,0,0,0,1]
 
 import numpy as np
 testdata = np.array(testdata)
@@ -76,3 +76,5 @@ print(sonuc[0])
 
 
 
+
+# %%
