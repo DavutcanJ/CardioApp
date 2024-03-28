@@ -36,7 +36,7 @@ class UserDiseaseRate(APIView):
         model = load_model("../ai/Ellidogruluk.keras")
         rate = model.predict(testdata)
         
-        ## Buraya veri degistirilip geri gonderilecek hocaya sor bi
+        User.objects.filter(id=pk).update(cardisrate=rate)
         
         serializer = UserResponseSerializer(users,many=True)   
         return Response(serializer.data,status= status.HTTP_200_OK)
