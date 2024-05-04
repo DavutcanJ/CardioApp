@@ -1,0 +1,8 @@
+Django==5.0.4
+djangorestframework==3.15.1
+drf_spectacular==0.27.2
+drf_yasg==1.21.7
+keras==3.3.3
+numpy==1.26.4
+pandas==2.2.2
+tensorflow ==2.16.1

@@ -1,0 +1,9 @@
+Django ==5.0.4
+djangorestframework == 3.15.1
+keras ==3.3.3
+keras-models ==0.0.7
+pandas ==2.2.2
+numpy ==1.26.4
+drf_spectacular ==0.27.2
+drf_yasg ==1.21.7
+tensorflow ==2.16.1

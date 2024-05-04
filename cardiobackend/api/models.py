@@ -7,7 +7,7 @@ class User(models.Model):
     age = models.IntegerField(max_length =3)
     gender = models.IntegerField(max_length=10)
     height = models.IntegerField(max_length=3)
-    weight = models.FloatField(max_length=30)
+    weight = models.FloatField(max_length=30)      
     ap_hi = models.IntegerField(max_length=30)
     ap_lo = models.IntegerField(max_length=30)
     cholesterol = models.IntegerField(max_length=10)
